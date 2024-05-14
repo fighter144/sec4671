@@ -1,0 +1,8 @@
+Program Length_Conversion
+implicit none
+INTEGER :: yard,feet,inch
+Read *,yard
+feet=3*yard
+inch=12*feet
+PRINT *,"Feet=",feet,"Inches=",inch
+End Program Length_Conversion
