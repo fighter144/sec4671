@@ -1,0 +1,7 @@
+Program Random_Variable_Expression
+real :: a,b,c,d,e,f,x,y,ans
+PRINT*,"Write value of a,b,c,d,e,f,x,y in that order"
+READ*,a,b,c,d,e,f,x,y
+ans=((a*x + b)/c) + ((d*y + e)/(2*f)) - (a/(b*d))
+PRINT*,"Your answer is ",ans,"."
+End Program Random_Variable_Expression
