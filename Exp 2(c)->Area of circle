@@ -1,0 +1,11 @@
+Program hello
+implicit none
+real::area,radius,circumference
+PRINT*, "Enter the radius of the circle (in cm): "
+read*, radius
+
+area = 3.14159 * radius * radius
+circumference = 2.0 * 3.14159 * radius
+PRINT*,"The area of the circle is: ", area, "sq cm"
+PRINT*,"The circumference of the circle is: ", circumference, "cm"
+End Program Hello
