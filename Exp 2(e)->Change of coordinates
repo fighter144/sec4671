@@ -1,0 +1,9 @@
+Program change_of_coordinates
+implicit none
+real::r,th,x,y
+PRINT *, "Enter x,y coordinates in that order"
+Read*, x,y
+r=sqrt((x*x)+(y*y))
+th=atan(y/x)
+PRINT *, "As per new coordinates, r=",r," and theta=",th
+End Program change_of_coordinates
