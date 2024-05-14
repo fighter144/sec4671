@@ -1,0 +1,16 @@
+PROGRAM Length_Conversion
+  IMPLICIT NONE
+  
+  REAL :: x, meters, centimeters
+  INTEGER ::millimeters
+  
+  READ *, x
+  meters = x / 1000
+  centimeters = X/100
+  millimeters =x
+  
+  PRINT *, "Meters: ", Meters
+  PRINT *, "Centimeters: ", centimeters
+  PRINT *, "millimeters: ", millimeters
+  
+  END PROGRAM Length_Conversion
