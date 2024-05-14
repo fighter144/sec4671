@@ -1,0 +1,16 @@
+program circle
+implicit  none
+real :: radius, pi, area, circumference
+
+pi = 3.14159265
+
+print *, "Enter the radius of the circle:"
+read *, radius
+
+area = pi * radius**2
+circumference = 2 * pi * radius
+
+print*, "The area of the circle is: ",area
+print*,"The circumference of the circle is: ", circumference
+
+end program circle
